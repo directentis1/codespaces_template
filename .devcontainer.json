@@ -18,18 +18,6 @@
         "vscjava.vscode-java-debug",
         "vsls-contrib.gitdoc"
       ],
-      "features": {
-        "ghcr.io/devcontainers/features/sshd:1": {"version": "latest"},
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {
-          "version": "latest",
-          "moby": false,
-          "installDockerBuildx": true,
-          "dockerDashComposeVersion": "v2"
-        },
-        "ghcr.io/devcontainers/features/sshd:1": {
-          "version": "latest"
-        }
-      },
       "settings": {
         "C_Cpp.autocomplete": "disabled",
         "C_Cpp.codeFolding": "disabled",
