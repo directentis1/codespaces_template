@@ -2,20 +2,10 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "/opt/cs50/extensions/cs50-0.0.1.vsix",
-        "/opt/cs50/extensions/phpliteadmin-0.0.1.vsix",
-        "cs50.ddb50",
-        "cs50.extension-uninstaller",
-        "cs50.lab50",
-        "cs50.markdown50",
-        "cs50.vscode-presentation-mode",
         "ms-python.python",
         "ms-vscode.cpptools",
         "ms-vscode.hexeditor",
         "ms-vsliveshare.vsliveshare",
-        "redhat.java",
-        "tomoki1207.pdf",
-        "vscjava.vscode-java-debug",
         "vsls-contrib.gitdoc"
       ],
       "settings": {
@@ -129,7 +119,7 @@
         "terminal.integrated.sendKeybindingsToShell": true,
         "terminal.integrated.shellIntegration.decorationsEnabled": "never",
         "terminal.integrated.shellIntegration.enabled": true,
-	"terminal.integrated.shell.linux": "/bin/bash",
+		"terminal.integrated.shell.linux": "/bin/bash",
         "terminal.integrated.tabs.description": "${task}${separator}${local}",
         "terminal.integrated.tabs.showActiveTerminal": "never",
         "window.autoDetectColorScheme": true,
@@ -194,7 +184,8 @@
       "version": "latest"
     }
   },
-  "image": "ghcr.io/easybuilders/ubuntu-22.04:2025-03-03-13626131526.124",
+  // "image": "ghcr.io/easybuilders/ubuntu-22.04:2025-03-03-13626131526.124",
+  "image": "dokken/ubuntu-22.04",
   "runArgs": ["--privileged"],
   "postAttachCommand": "",
   "remoteEnv": {
